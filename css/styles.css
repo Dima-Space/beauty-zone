@@ -1,0 +1,57 @@
+:root {
+    --color-brand: #2b7fff;
+    --color-primary: #011c44;
+    
+}
+
+/* base */
+body {
+    color: var(--color-prymary);
+    font-family: 'Roboto', 'Play', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+/* button*/
+.button {
+    color: #ffffff;
+    background-color:var(--color-brand);
+border: 2px solid var(--color-brand);
+border-radius: 32px;
+
+ }
+.button:hover {
+    color: var(--color-primary);
+    background-color: transparent;
+    
+}
+/* link*/
+.link {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.link:hover {
+    color: var(--color-brand);
+}
+/* hero section*/
+.hero-title {
+    color:var(--color-brand) ;
+    text-align: left;
+    
+}
+
+.section-title {
+    color: var(--color-primary);
+   
+}
+.section-title .accent {
+    color: var(--color-brand);
+}
+.section-title span{
+    text-transform: capitalize;
+}
+.section-beauty span{
+    text-transform: capitalize;
+}
